@@ -51,3 +51,27 @@ Changes to be committed:
 ## Git . Partie B: Branches, historique et conflits
 9) Je crée une branche avec la commande `git checkout -b feature-login`.
 10) J'affiche la différence en utilisant la commande `git diff`.
+12) Je reviens à la branche main avec la commande `git checkout main`.
+13) je fusionne la branche feature-login avec la branche main avec la commande `git merge feature-login`.
+J'ai ce retour:
+```bash
+ yassinezemmouriate@macbook-air mon-projet-git % git merge feature-login
+Updating c729dc7..59ce358
+Fast-forward
+ README.md | 25 ++++++++++++++++++++++++-
+ 1 file changed, 24 insertions(+), 1 deletion(-)
+```
+14) Je crée le fichier `.gitignore` avec les lignes suivantes:
+```gitignore
+.env
+node_modules/
+```
+15) Si deux branches modifient la même ligne d'un même ficiher avant le merge, Git me demande de résoudre le conflit manuellement en modifiant le fichier concerné et en ajoutant les modifications.
+    - Un conflit de merge est déclenché quand Git ne sait pas quelle modification conserver
+
+## GitHub . Partie A: Dépôt distant : push and pull
+17) Je lie mon dépôt local au dépôt distant sur GitHub avec la commande `git remote add origin https://github.com/Yassine-Zemmouriate-DataDev/mon-projet-git.git`.
+
+18) Je push mes modifications sur GitHub avec la commande `git push origin main`.
+19) ![Historique des commits](./image/commit_history.png)
+
