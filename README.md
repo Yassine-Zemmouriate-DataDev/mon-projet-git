@@ -75,3 +75,10 @@ node_modules/
 18) Je push mes modifications sur GitHub avec la commande `git push origin main`.
 19) ![Historique des commits](./image/commit_history.png)
 
+<<<<<<< Updated upstream
+=======
+## GitHub . Partie B: Collaboration : Pull Request
+
+22) Je crée la branche avec `git checkout -b docs/readme` puis je la pousse avec `git push origin docs/readme`.
+24) Une Pull Request permet de faire relire et discuter les modifs avant de les intégrer à la branche principale qu'on appelle plus souvent la branche de production, donc il faut éviter au maximum les erreurs. Parmi les solutions qu'on propose, c'est de protéger la branche `main` en évitant de faire des push directement dessus.
+>>>>>>> Stashed changes
