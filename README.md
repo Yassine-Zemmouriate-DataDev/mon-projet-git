@@ -75,3 +75,6 @@ node_modules/
 18) Je push mes modifications sur GitHub avec la commande `git push origin main`.
 19) ![Historique des commits](./image/commit_history.png)
 
+## GitHub . Partie B: Collaboration : Pull Request
+
+22) Je crée la branche avec `git checkout -b docs/readme` puis je la pousse avec `git push origin docs/readme`.
